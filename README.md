@@ -1,6 +1,6 @@
-# Server logger Simple
+# Server logger Complete
 
-A web application for logging the local time when request is received by web server
+A web application for logging the local time when request is received and response is sent by web server
 
 ## Prerequisites
 Make sure you have installed the following prerequisites:
@@ -19,6 +19,7 @@ or initializing project by nodemon using:
 $ npm run dev
 
 ## Usage
-- By refreshing web app on browser, you will see the time when each request is received by server on console
-# server-logger
-# server-logger
+- By refreshing web app on browser, you will see below information on console standard output:
+  - the time when each request is received by server
+  - the HTTP method and path of request
+  - the time gap between receiving request and sending response on server
